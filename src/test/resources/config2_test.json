@@ -1,0 +1,9 @@
+
+{
+    "outputPath" : "D:\\github.com\\safrunningtime\\output",
+    "rules" :
+    {
+        "xx.yy.zz.testclass2" : ["method3", "method4"],
+        "aa.bb.cc.dd.testclass" : ["method1", "method2"]
+    }
+}

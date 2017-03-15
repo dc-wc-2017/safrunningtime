@@ -1,0 +1,13 @@
+{
+    "name" : "test_group",
+    "ruleList" : [
+        {
+            "className" : "a.ba.c.testclass",
+            "methodName" : ["mytestmethod1", "mytestmethod2"]
+        },
+        {
+            "className" : "xx.yy.zz.testclass2",
+            "methodName" : ["mytestmethod3", "mytestmethod4"]
+        }
+    ]
+}

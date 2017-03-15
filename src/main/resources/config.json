@@ -1,0 +1,21 @@
+{
+    "name" : "test_group",
+    "ruleList" : [
+        {
+            "className" : "com.successfactors.safrunningtime.TestTime$SubTime",
+            "methodName" : ["mytestmethod1", "mytestmethod2"]
+        },
+        {
+            "className" : "com.successfactors.safrunningtime.TestTime",
+            "methodName" : ["mytestmethod3", "mytestmethod4"]
+        },
+        {
+            "className" : "com.successfactors.safrunningtimetest.MyTestRunningTime",
+            "methodName" : ["mytestmethod3", "mytestmethod4"]
+        },
+        {
+            "className" : "com.successfactors.safrunningtimetest.MyTestRunningTime$MySubTime",
+            "methodName" : ["mytestmethod3", "mytestmethod4"]
+        },
+    ]
+}

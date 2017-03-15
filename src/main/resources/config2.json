@@ -1,0 +1,22 @@
+{
+    "outputPath" : "C:\\daniel\\automation\\branches\\output",
+    "rules" :
+    {
+        "com.successfactors.safrunningtime.TestTime$SubTime" : 
+        	["*"],
+        "com.successfactors.safrunningtime.TestTime" : 
+        	["*"],
+        "com.successfactors.safrunningtimetest.MyTestRunningTime" :
+        	["*"],
+        "com.successfactors.safrunningtimetest.MyTestRunningTime$MySubTime" :
+        	["*"],
+        "com.successfactors.safrunningtimetest.TestNGCase1" :
+            ["*"],
+        "com.successfactors.safrunningtimetest.TestNGCase2" :
+            ["*"],
+        "com.successfactors.safrunningtimetest.TestNGCase3" :
+            ["*"],
+        "com.successfactors.safrunningtimetest.util.TestUtil" :
+        	["testMethod2", "testMethod4"]
+    }
+}
