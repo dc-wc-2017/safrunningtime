@@ -68,6 +68,11 @@ public class RuleConfiguration {
 			return false;
 		}
 		
+		// filter out the method name like "<clinit>"
+		if (methodName.equals("<clinit>")) {
+			return false;
+		}
+		
 		if (methods.size() == 1 && methods.get(0).equals("*")){
 			return true;
 		}

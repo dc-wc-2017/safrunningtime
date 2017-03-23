@@ -16,7 +16,7 @@
             ["*"],
         "com.successfactors.saf.library.provisioning.actions.ProvUpdateTemplate" :
             ["*"],
-        "om.successfactors.saf.library.provisioning.actions.ProvImport" :
+        "com.successfactors.saf.library.provisioning.actions.ProvImport" :
             ["*"],
         "com.successfactors.saf.library.admintools.actions.rbp.AdminToolsManagePermissionRoles" :
         	["*"],
@@ -35,6 +35,16 @@
         "com.successfactors.saf.library.compensation.actions.CompCreate" :
         	["*"],
         "com.successfactors.saf.library.compensation.actions.CompView" :
+            ["*"],
+        "com.successfactors.saf.library.common.actions.CommonProvLogin" :
+            ["*"],
+        "com.successfactors.saf.library.provisioning.actions.ProvView" :
+            ["*"],
+        "com.successfactors.saf.library.provisioning.pageactions.CompanySettingPage" :
+            ["*"],
+        "com.successfactors.saf.library.compensation.utils.CompDBUtils" :
+            ["*"],
+        "com.successfactors.saf.library.admintools.actions.rbp.AdminToolsManageRoleBasedPermissionAccess" :
             ["*"]
     }
 }
