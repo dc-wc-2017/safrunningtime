@@ -36,4 +36,5 @@
         	["*"],
         "com.successfactors.saf.library.compensation.actions.CompView" :
             ["*"]
+    }
 }
