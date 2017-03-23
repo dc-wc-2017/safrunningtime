@@ -1,22 +1,39 @@
 {
-    "outputPath" : "C:\\daniel\\automation\\branches\\output",
+    "outputPath" : "C:\\daniel\\automation\\output",
     "rules" :
     {
-        "com.successfactors.safrunningtime.TestTime$SubTime" : 
+        "com.successfactors.saf.library.compensation.utils.CompensationUITest" :
         	["*"],
-        "com.successfactors.safrunningtime.TestTime" : 
+        "com.successfactors.saf.tests.compensation.regression.rbp.ENT21772RBPSecondLevelManagerForCompensationForms" : 
         	["*"],
-        "com.successfactors.safrunningtimetest.MyTestRunningTime" :
+        "com.successfactors.saf.library.compvarpaycommon.CompVpRbp" : 
         	["*"],
-        "com.successfactors.safrunningtimetest.MyTestRunningTime$MySubTime" :
+        "com.successfactors.saf.library.common.actions.CommonAppLogin" :
         	["*"],
-        "com.successfactors.safrunningtimetest.TestNGCase1" :
+        "com.successfactors.saf.library.compensation.actions.CompImport" :
+        	["*"],
+        "com.successfactors.saf.library.compensation.actions.CompDelete" :
             ["*"],
-        "com.successfactors.safrunningtimetest.TestNGCase2" :
+        "com.successfactors.saf.library.provisioning.actions.ProvUpdateTemplate" :
             ["*"],
-        "com.successfactors.safrunningtimetest.TestNGCase3" :
+        "om.successfactors.saf.library.provisioning.actions.ProvImport" :
             ["*"],
-        "com.successfactors.safrunningtimetest.util.TestUtil" :
-        	["testMethod2", "testMethod4"]
-    }
+        "com.successfactors.saf.library.admintools.actions.rbp.AdminToolsManagePermissionRoles" :
+        	["*"],
+        "com.successfactors.saf.library.admintools.actions.rbp.AdminToolsManagePermissionGroups" :
+        	["*"],
+        "com.successfactors.saf.library.admintools.actions.AdminToolsPermissions" :
+        	["*"],
+        "com.successfactors.saf.library.system.testbeans.rbpfields.PermissionRule" :
+        	["*"],
+        "com.successfactors.saf.library.system.testbeans.rbpfields.PermissionRoleAccessGroupFields" :
+        	["*"],
+        "com.successfactors.saf.library.system.testbeans.rbpfields.PermissionRoleTargetGroupFields" :
+        	["*"],
+        "com.successfactors.saf.library.compensation.actions.CompRbp" :
+        	["*"],
+        "com.successfactors.saf.library.compensation.actions.CompCreate" :
+        	["*"],
+        "com.successfactors.saf.library.compensation.actions.CompView" :
+            ["*"]
 }
