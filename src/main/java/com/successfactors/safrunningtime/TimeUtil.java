@@ -40,7 +40,10 @@ public class TimeUtil {
         ret.setClassName(className);
         ret.setMethodName(methodName);
         ret.setElapsedTime(String.valueOf(exclusive));
-        RESULTS.addResult(ret);
+        // only record the code behavior which is over 1 second
+        if (exclusive > 1000) {
+        	RESULTS.addResult(ret);
+        }
     }
 
     public static Map<String, Long> getStartTimes() {
